@@ -5,11 +5,36 @@
     <title>todo(js)</title>
   </head>
   <body>
-    <input>
-    <button>追加</button>
+    <div class="input-area">
+      <input>
+      <button>追加</button>
+    </div>
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
+      <ul>
+        <li>
+          <div>
+            <p>todoです</p>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
+        </li>
+      </ul>
+    </div>  
+    <div class="complete-area">
+      <p class="title">完了TODO</p>
+      <ul>
+        <li>
+          <div>
+            <p>todoです</p>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-    <p>未完了のTODO</p>
-
-    <p>完了TODO</p>
+    <script type="module" src="/src/main.js"></script>  
+    
   </body>
 </html>
