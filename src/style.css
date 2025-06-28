@@ -55,3 +55,7 @@ button:hover{
   margin-top: 0px;
   font-weight: bold;
 }
+
+.todo-item{
+  margin:6px;
+}
